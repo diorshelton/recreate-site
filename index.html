@@ -2,14 +2,12 @@
 <html>
   <head>
     <title></title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
+        <div class="sidebar">
           <ul class="nav nav-sidebar">
             <li><a href="#">Arts</a></li>
             <li><a href="#">Biography</a></li>
@@ -32,11 +30,8 @@
           </ul>
         </div>
       </div>
-
-
-
       <div class="row">
-        <div class="column bg-info">
+        <div class="column bg-warning">
           <a href="#">Not logged in</a> <a href="#">Talk</a> <a href="#">Contributions</a> <a href="#">Create account</a><a href="#">Log in</a>
         </div>
       </div>
@@ -69,9 +64,12 @@
       </div>
 
       <div class="row">
-        <div class="column">
-          <h2>Featured article of the day </h2> 
-            <img src="#">
+        <div class="col">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h2 class="panel-title">Featured Article</h2>
+            </div>
+            <div class="panel-body">
               <p>Some text about the article. Goes here.
                 <a href="#"> generic link</a> More text goes here.
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -88,99 +86,131 @@
                 aliquam error culpa excepturi <a href="#"> generic link</a> cupiditate dolores quae molestiae minus 
                 corrupti omnis dolore, quisquam quibusdam, ex sapiente repudiandae itaque 
                 ipsum placeat unde!
-              </p>  
+              </p>
+            </div> 
+          </div> 
         </div>
       </div>
       <div class="row">
-        <div class="column">
-          <h2>Other article</h2>
-          <img src="#">
-            <p>Some text about the article. Goes here.
-              <a href="#"> generic link</a> More text goes here.
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Accusamus iure at odio aperiam laudantium tempora 
-              aspernatur, praesentium soluta quam nulla explicabo repellat
-              cumque aliquam, excepturi quae qui iusto voluptatem velit.
-              Some text about the article. Goes here.
-              <a href="#"> generic link</a> More text goes here.
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Accusamus iure at odio aperiam  laudantium tempora 
-              aspernatur, praesentium soluta quam <a href="#"> generic link</a> 
-              nulla explicabo repellat cumque aliquam, excepturi quae qui iusto voluptatem velit.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo 
-              aliquam error culpa excepturi <a href="#"> generic link</a> cupiditate dolores quae molestiae minus 
-              corrupti omnis dolore, quisquam quibusdam, ex sapiente repudiandae itaque 
-              ipsum placeat unde!
-            </p>  
+        <div class="col">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h2 class="panel-title">Other article</h2>
+            </div>
+            <div class="panel-body">
+              <p>Some text about the article. Goes here.
+                <a href="#"> generic link</a> More text goes here.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Accusamus iure at odio aperiam laudantium tempora 
+                aspernatur, praesentium soluta quam nulla explicabo repellat
+                cumque aliquam, excepturi quae qui iusto voluptatem velit.
+                Some text about the article. Goes here.
+                <a href="#"> generic link</a> More text goes here.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Accusamus iure at odio aperiam  laudantium tempora 
+                aspernatur, praesentium soluta quam <a href="#"> generic link</a> 
+                nulla explicabo repellat cumque aliquam, excepturi quae qui iusto voluptatem velit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo 
+                aliquam error culpa excepturi <a href="#"> generic link</a> cupiditate dolores quae molestiae minus 
+                corrupti omnis dolore, quisquam quibusdam, ex sapiente repudiandae itaque 
+                ipsum placeat unde!
+              </p>
+            </div>
+          </div>  
         </div>
       </div>
-    
+
       <div class="row">
-        <div class="column">
-          <h2>News</h2> 
-          <img src="#">
-          <div class="quicklinks">
-            <ul>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-            </ul>
+        <div class="col">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h2 class="panel-title">Other News</h2>
+            </div>
+            <img src="#">
+            <div class="panel-body">
+                <ul class="link-box">
+                  <li><a href="#">Link</a></li>
+                  <li><a href="#">Link</a></li>
+                  <li><a href="#">Link</a></li>
+                  <li><a href="#">Link</a></li>
+                  <li><a href="#">Link</a></li>
+                </ul>
+
+              <p>Some text about the article. Goes here.
+                <a href="#"> generic link</a> More text goes here.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Accusamus iure at odio aperiam laudantium tempora 
+                aspernatur, praesentium soluta quam nulla explicabo repellat
+                 cumque aliquam, excepturi quae qui iusto voluptatem velit.
+              </p>
+            </div> 
           </div>
-          <p>Some text about the article. Goes here.
-            <a href="#"> generic link</a> More text goes here.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Accusamus iure at odio aperiam laudantium tempora 
-            aspernatur, praesentium soluta quam nulla explicabo repellat
-             cumque aliquam, excepturi quae qui iusto voluptatem velit.
-          </p>
         </div>
       </div>
+
       <div class="row">
-        <div class="column">
-          <h2>More news</h2>
-            <p>
-              Some text about the article. Goes here.
-              <a href="#"> generic link</a> More text goes here.
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Accusamus iure at odio aperiam  laudantium tempora 
-              aspernatur, praesentium soluta quam <a href="#"> generic link</a> 
-              nulla explicabo repellat cumque aliquam, excepturi quae qui iusto voluptatem velit.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo 
-              aliquam error culpa excepturi <a href="#"> generic link</a> cupiditate dolores quae molestiae minus 
-              corrupti omnis dolore, quisquam quibusdam, ex sapiente repudiandae itaque 
-              ipsum placeat unde!
-            </p>
+        <div class="col">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h2 class="panel-title">More News</h2>
+            </div>
+            <div class="panel-body">
+              <img src="#">
+              <p>
+                Some text about the article. Goes here.
+                <a href="#"> generic link</a> More text goes here.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Accusamus iure at odio aperiam  laudantium tempora 
+                aspernatur, praesentium soluta quam <a href="#"> generic link</a> 
+                nulla explicabo repellat cumque aliquam, excepturi quae qui iusto voluptatem velit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo 
+                aliquam error culpa excepturi <a href="#"> generic link</a> cupiditate dolores quae molestiae minus 
+                corrupti omnis dolore, quisquam quibusdam, ex sapiente repudiandae itaque 
+                ipsum placeat unde!
+              </p>
+            </div>  
         </div>
       </div>
     
       <div class="row">
         <div class="column">
-          <h2>Links</h2>
-          <p>
-            Some text about the article. Goes here.
-            <a href="#"> generic link</a> More text goes here.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Accusamus iure at odio aperiam  laudantium tempora 
-          </p>
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h2 class="panel-title">Links</h2>
+            </div>
+            <div class="panel-body">
+              <img src="#">
+              <p>
+               Some text about the article. Goes here.
+               <a href="#"> generic link</a> More text goes here.
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+               Accusamus iure at odio aperiam  laudantium tempora 
+              </p>
+            </div>
+          </div>   
+        </div>     
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h2 class="panel-title"> Additional Resources</h2>
+            </div>
+            <div class="panel-body">
+              <img src="#">
+              <p>
+                Some text about the article. Goes here.
+                <a href="#"> generic link</a> More text goes here.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Accusamus iure at odio aperiam  laudantium tempora 
+                Some text about the article. Goes here.
+                <a href="#"> generic link</a> More text goes here.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Accusamus iure at odio aperiam  laudantium tempora 
+              </p>
+          </div>
+        </div>
       </div>
     </div>
-      <div class="row">
-        <div class="column">
-          <h2>Resources</h2>
-          <p>
-            Some text about the article. Goes here.
-            <a href="#"> generic link</a> More text goes here.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Accusamus iure at odio aperiam  laudantium tempora 
-            Some text about the article. Goes here.
-            <a href="#"> generic link</a> More text goes here.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Accusamus iure at odio aperiam  laudantium tempora 
-          </p>
-
-
-      </div>
   </body>
 </html>
