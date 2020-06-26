@@ -1,0 +1,7 @@
+.sidebar{
+  float: left;
+  width: 15%;
+  min-height: 100%;
+  display: inline-block;
+  position: relative;
+}
