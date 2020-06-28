@@ -1,4 +1,4 @@
-#### _A copy of Wikipedia's main page, {6/27/2020_
+#### _A copy of Wikipedia's main page, 6/27/2020_
 
 #### By _**Dior Shelton**_
 
